@@ -2,9 +2,7 @@
 **https://neural-network-workspace-dl.vercel.app/**
 
 
-[![Build and Push Docker Image](https://github.com/sivasks2004/NeuralNetworkPlayground-DL/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/sivasks2004/NeuralNetworkPlayground-DL/actions/workflows/docker-publish.yml)
-
-[![Docker Image](https://img.shields.io/badge/docker-ghcr.io-blue)](https://github.com/sivasks2004/NeuralNetworkPlayground-DL/pkgs/container/neuralnetworkplayground-dl)
+[![Build and Push Docker Image](https://github.com/sivasks2004/NeuralNetworkPlayground-DL/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/sivasks2004/NeuralNetworkPlayground-DL/actions/workflows/docker-publish.yml)  [![Docker Image](https://img.shields.io/badge/docker-ghcr.io-blue)](https://github.com/sivasks2004/NeuralNetworkPlayground-DL/pkgs/container/neuralnetworkplayground-dl)
 
 An interactive web application for visualizing and training neural networks. Built with React, this playground allows you to experiment with different network configurations, activation functions, and training parameters in real-time.
 
