@@ -1,0 +1,263 @@
+.gradient-flow-container {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.gradient-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #e1e8ed;
+}
+
+.gradient-header h5 {
+  color: #2c3e50;
+  font-weight: 700;
+  margin: 0;
+}
+
+.toggle-details-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.toggle-details-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.flow-steps {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.flow-step {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  min-width: 200px;
+}
+
+.step-indicator {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+  flex-shrink: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.step-info {
+  margin-left: 15px;
+  flex: 1;
+}
+
+.step-info h6 {
+  margin: 0 0 5px 0;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.step-info p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #7f8c8d;
+}
+
+.step-arrow {
+  font-size: 2rem;
+  color: #bdc3c7;
+  margin: 0 15px;
+  animation: arrowPulse 2s infinite;
+}
+
+@keyframes arrowPulse {
+  0%, 100% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.gradient-details {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.detail-section {
+  margin-bottom: 20px;
+}
+
+.detail-section:last-child {
+  margin-bottom: 0;
+}
+
+.detail-section h6 {
+  color: #2c3e50;
+  font-weight: 600;
+  margin-bottom: 12px;
+  font-size: 1rem;
+}
+
+.architecture-info {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.layer-info {
+  background: white;
+  padding: 10px 15px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.layer-label {
+  font-size: 0.8rem;
+  color: #7f8c8d;
+  margin-bottom: 4px;
+}
+
+.layer-value {
+  font-size: 0.95rem;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.params-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+.param-item {
+  background: white;
+  padding: 10px 15px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.param-label {
+  font-size: 0.85rem;
+  color: #7f8c8d;
+}
+
+.param-item code {
+  background: #ecf0f1;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  color: #e74c3c;
+}
+
+.chain-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.chain-item {
+  background: white;
+  padding: 12px 15px;
+  border-radius: 6px;
+  border-left: 4px solid #9b59b6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.chain-item code {
+  display: block;
+  font-family: 'Courier New', monospace;
+  color: #9b59b6;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+.chain-item small {
+  color: #7f8c8d;
+  font-size: 0.8rem;
+}
+
+.key-concepts {
+  background: linear-gradient(135deg, #667eea10 0%, #764ba210 100%);
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.key-concepts ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.key-concepts li {
+  padding: 8px 0;
+  color: #2c3e50;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+.key-concepts li::before {
+  content: "✓";
+  color: #27ae60;
+  font-weight: bold;
+  margin-right: 10px;
+  font-size: 1.1rem;
+}
+
+.key-concepts strong {
+  color: #667eea;
+  margin-right: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .flow-steps {
+    flex-direction: column;
+  }
+
+  .step-arrow {
+    transform: rotate(90deg);
+    margin: 15px 0;
+  }
+
+  .architecture-info,
+  .params-info {
+    flex-direction: column;
+  }
+
+  .gradient-header {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+}
